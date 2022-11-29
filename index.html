@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOTO PHACTORY</title>
+</head><link rel="stylesheet" href="css/Style.css">
+<link rel="stylesheet" href="font-family: 'Nerko One', cursive;">
+
+<style>
+    body{
+        font-family: 'Nerko One', cursive;
+        color: rgb(249 130 0);
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg4.jpg');
+        /* height: 90px;
+        width: 70px; */
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid rgb(236, 229, 229); */
+        position: absolute;
+        left: 30px;
+        top: 20px;
+
+    }
+    .left img{
+        width: 90px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 53%;
+        margin: 20px auto;
+        padding-left: 344px;
+        /* border: 2px solid rgb(236, 229, 229); */
+
+    }
+    .right{
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(236, 229, 229); */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration:underline ;
+        color: gray;
+    }
+    .btn{
+        font-family: 'Nerko One', cursive;
+        margin: 9px;
+        background-color: black;
+        color: white;
+        padding: 2px 5px;
+        border: 3px solid;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+    .container{
+        border: 2px;
+        margin: 200px 80px;
+        padding: 75;
+        width: 33%;
+        border-radius: 28px;
+
+    }
+    .form-group input{
+        font-family: 'Nerko One', cursive;
+        text-align: center;
+        display: block;
+        width: 280px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 15px;
+        border-radius: 12px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+
+</style>
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/logo-camera-png-3.webp" alt="">
+            <div>FOTO</div>
+            <div>PHACTORY</div>
+
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <!-- <li><a href="#">BMI</a></li> -->
+                <li><a href="#">FAQ</a></li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+            
+        </div>
+    </header>
+        <div class="container">
+            <H1>HURRY UP....ENROLL NOW!! </H1>
+            
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Experience (yes/no)">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Mobile No.">
+                </div>
+                <button class="btn">Submit</button>
+            </form>    
+        </div>
+</body>
+</html>
